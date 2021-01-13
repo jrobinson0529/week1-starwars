@@ -1,5 +1,7 @@
 body {
+  font-family: 'Teko', sans-serif;
   background-color: #123456;
+  text-align: center;
 }
 ul {
   display: flex;
@@ -14,6 +16,8 @@ a {
   color: red;
 }
 a:hover {
+  padding: 5px;
+  background-color: mediumaquamarine;
   color: pink;
 }
 article {
@@ -41,8 +45,29 @@ img {
 }
 .card h2 {
   text-align: center;
-  background-color:;
+  background-color: mediumaquamarine;
 }
 footer {
   padding: 20px;
+}
+.people-container {
+  column-count: 5;
+  margin: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+.people-card {
+  box-shadow:5px 10px turquoise;
+  border-radius: 15%;
+  padding: 20px;
+  margin: 25px;
+  width: 300px;
+  border: 2px solid maroon;
+}
+.people-card p {
+  color: blueviolet;
+  font-size: 18px;
+  font-weight: 400;
 }
