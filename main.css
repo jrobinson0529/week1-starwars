@@ -1,3 +1,48 @@
 body {
-  background-color: blueviolet;
+  background-color: #123456;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: pink;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  padding: 25px;
+}
+img {
+  height: inherit;
+  width: inherit;
+}
+.image-container {
+  display: flex;
+  /* flex-direction: row; */
+  flex-flow: row wrap;
+  /* border: red 2px solid; */
+}
+.card {
+ border: 2px red solid;
+ padding: 20px;
+ margin: 25px;
+ height: 400px; 
+}
+.card h2 {
+  text-align: center;
+  background-color:;
+}
+footer {
+  padding: 20px;
 }
